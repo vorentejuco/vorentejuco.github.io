@@ -20,7 +20,6 @@ body{
      background-color: rgb(15, 15, 15);
      font-family: 'Poppins', sans-serif;
      font-weight: 400;
-     margin-left: 70px;
 }
 
 .about-btn button{
@@ -117,4 +116,25 @@ body{
  .success-container a:hover{
      color: #f0f0f0;
      text-shadow: 0 0 40px #EDB846, 0 0 40px #EDB846, 0 0 40px #EDB846;
+ }
+
+
+ @media(max-width: 466px){
+     .success-container h1{
+          font-size: 24px;
+      }
+
+      .success-container h3{
+               font-size: 14px;
+      }
+
+      .success-container img{
+          height: 150px!important;
+          filter: invert(80%);
+      }
+ }
+
+ .success-container img{
+     height: 200px;
+     filter: invert(90%);
  }
