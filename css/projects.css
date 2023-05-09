@@ -1,0 +1,142 @@
+#projects{
+     position: relative;
+     margin-bottom: 3rem;
+}
+
+.projects-container{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+
+.projects-wrapper{
+     width: 350px;
+     min-height: 400px;
+     background-color: #252525;
+     border-radius: 5px;
+}
+
+.fixme{
+     box-shadow: 0 0px 20px #f0f0f08c;
+     transition: 0.1s ease-in-out all;
+}
+
+.fixme1{
+     box-shadow: 0 0px 20px #f0f0f08c;
+     transition: 0.1s ease-in-out all;
+}
+
+
+.projects-wrapper>img:first-child{
+     width: 348px;
+     height: 196px;
+     padding: 0 1rem;
+     padding-top: 1rem;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     
+}
+
+@media(max-width:1323px){
+     .projects-container{
+          flex-direction: column;
+          position: static;
+          gap: 2rem;
+     }
+
+     .projects-container div:first-child{
+          margin-top: 3rem;
+     }
+
+     .fixme{
+          margin-top: 0!important;
+          margin-bottom: 0!important;
+     }
+
+     
+}
+
+
+.project-info-container{
+     margin: 0 1rem;
+}
+
+.project-info-container p{
+     color: #bbbbbb;
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+
+.tags{
+     display: flex;
+     gap: 10px;
+     flex-wrap: wrap;
+}
+
+.tags span{
+     width: auto;
+     background-color: #373737;
+     color: #bbbbbb;
+     font-size: 13px;
+     padding: 3px 9px;
+     border-radius: 12px;
+}
+
+
+.project-btn-container{
+     margin-top: 2rem;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     gap: 6rem;
+     border-top: 1px solid #75757549;
+     padding-top: 19px;
+
+}
+
+
+
+.project-btn-container1{
+     margin-top: 4.35rem;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     gap: 6rem;
+     border-top: 1px solid #75757549;
+     padding-top: 19px;
+
+}
+
+
+.project-btn-container a, .project-btn-container1 a{
+     color: #AF893A;
+     font-family: 'Source Code Pro', monospace;
+     font-weight: 600;
+     text-decoration: none;
+     text-underline-offset: 6px;
+     text-decoration-thickness: 1.5px;
+     text-decoration-color: #af8a3a86;
+}
+
+
+.project-btn-container a:hover, .project-btn-container1 a:hover, .contact-info-links a p:hover, .footer-container a:hover{
+     text-shadow: 0 0 20px #edb844, 0 0 20px #edb844, 0 0 20px #edb844;
+     color:#f0f0f0;
+     transition: 0.1s ease-in-out all;
+     text-decoration: none;
+     transform: scale(1.1);
+}
+
+
+.send:hover{
+     filter: hue-rotate(60deg);
+}
+
+.contact-info-links a{
+     text-decoration: none;
+}

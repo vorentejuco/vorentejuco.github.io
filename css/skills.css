@@ -1,0 +1,113 @@
+.skills-container{
+     display: flex;
+     color: rgb(185, 185, 185);
+     justify-content: space-between;
+     max-width: 1000px;
+     margin: 5rem auto;
+     gap: 6rem;
+     font-weight: 300;
+}
+
+.skills-subcontainer{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     gap: 2rem;
+}
+
+
+
+.skills-subcontainer div h2{
+     
+     font-weight: 300;
+     color: #f0f0f0;   
+}
+
+.expert-container{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+}
+
+.expert-label{
+     display: flex;
+     justify-content: space-between;
+}
+
+.bar-border{
+     border-radius: 12px;
+     background-color: rgb(185, 185, 185);
+}
+
+.bar{
+     height: 5px;
+     background-color: #EDB846;
+     border-top-left-radius: 12px;
+     border-bottom-left-radius: 12px;
+}
+
+#skills{
+     position: relative;
+}
+
+@media(max-width: 1024px){
+     .skills-container{
+          flex-direction: column;
+          margin: 3rem;
+     }
+
+     .skills-subcontainer div h2{
+          font-size: 16px;
+     }
+
+     .expert-label{
+          font-size: 14px;
+     }
+}
+
+.bar-react{
+     width: 78%;
+}
+
+.bar-css{
+     width: 83%;
+}
+
+.bar-js{
+     width: 73%;
+}
+
+.bar-html{
+     width: 86%;
+}
+
+.bar-bs{
+     width: 81%;
+}
+
+.bar-node{
+     width: 68%;
+}
+
+.bar-x{
+     width: 65%;
+}
+
+.bar-jsb{
+     width: 71%;
+}
+
+.bar-mongo{
+     width: 67%;
+}
+
+.skills-icon{
+     height: 25px;
+}
+
+.skills-flex{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     align-self: center;
+}

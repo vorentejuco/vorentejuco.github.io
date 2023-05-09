@@ -1,0 +1,135 @@
+
+
+
+.section-subcontainer{
+     display: flex;
+     max-width: 800px;
+     align-items: center;
+     gap: 3rem;
+}
+
+.about-container{
+     color: #f0f0f0;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     min-height: 200px;
+}
+.about-container h1{
+     font-weight: 300;
+     color: #EDB846;
+}
+.about-container h2{
+     flex-grow: 1;
+     color: rgb(185, 185, 185);
+     font-weight: 300;
+     font-size: 18px;
+     
+}
+
+.about-container p{
+     font-weight: 300;
+     text-align: justify;
+     color: #f0f0f0;
+}
+
+.about-img{
+     filter: grayscale(75%);
+     height: 250px;
+     width: 250px;
+}
+
+.flex-column-me{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 4rem;
+     height: auto;
+}
+
+.about-btn{
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     gap: 4rem;
+}
+
+#about{
+     position: relative;
+}
+
+.center-me{
+     position: absolute;
+     right: 0;
+     left: 0;
+     top: 30%;
+}
+
+.loc{
+     height: 20px;
+     filter: invert(80%);
+     transform: translateY(4px);
+}
+
+@media(max-width: 982px){
+     .section-subcontainer{
+          flex-direction: column;
+          text-align: center;
+          max-width: 400px;
+          margin: 0 3rem;
+     }
+
+     .about-img{
+          width: 150px;
+          height: 150px;
+     }
+
+     .about-btn button{
+          padding: 8px;
+          font-size: 10px;
+     }
+
+     .flex-column-me{
+          gap: 2rem;
+     }
+
+     .center-me{
+          top: 20%;
+     }
+
+     .section-header{
+          font-size: 18px;
+     }
+
+     .section-subheader{
+          font-size: 14px;
+     }
+
+     .about-container h1{
+          font-size: 18px;
+     }
+     .about-container h2{
+          font-size: 16px;
+     }
+     
+     .about-container p{
+          font-size: 14px;
+     }
+
+     .about-btn{
+          gap: 2rem;
+     }
+
+     .section-container{
+          height: auto;
+     }
+}
+
+
+
+
+@media(max-width: 448px){
+     .about-container p{
+          margin-top: 1rem;
+     }
+}
