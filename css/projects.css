@@ -1,17 +1,32 @@
 #projects{
      position: relative;
-     margin-bottom: 3rem;
+     margin-bottom: 5rem;
 }
 
 .projects-container{
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
+     gap: 5rem;
      align-items: center;
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
+     margin-top: 5rem;
+
+}
+
+#projects .section-container .section-header{
+     margin-bottom: 5rem;
+}
+
+@media(max-width: 1323px){
+     #projects{
+          margin-bottom: 3rem;
+     }
+
+     #projects .section-container .section-header{
+          margin-bottom: 0;
+     }
+     .projects-container{
+          margin-top: 0;
+     }
 }
 
 .projects-wrapper{

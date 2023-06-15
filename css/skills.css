@@ -101,6 +101,18 @@
      width: 67%;
 }
 
+.bar-php{
+     width: 52%;
+}
+
+.bar-laravel{
+     width: 57%;
+}
+
+.bar-mysql{
+     width: 55%;
+}
+
 .skills-icon{
      height: 25px;
 }
