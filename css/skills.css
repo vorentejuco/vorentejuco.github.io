@@ -1,11 +1,17 @@
 .skills-container{
      display: flex;
+     flex-direction: column;
      color: rgb(185, 185, 185);
-     justify-content: space-between;
      max-width: 1000px;
      margin: 5rem auto;
      gap: 6rem;
      font-weight: 300;
+}
+
+.skills-container>div{
+     display: flex;
+     justify-content: center;
+     gap: 5rem;
 }
 
 .skills-subcontainer{
@@ -14,8 +20,6 @@
      width: 100%;
      gap: 2rem;
 }
-
-
 
 .skills-subcontainer div h2{
      
@@ -52,8 +56,21 @@
 
 @media(max-width: 1024px){
      .skills-container{
+          gap: 3rem;
+     }
+
+     .skills-container>div{
           flex-direction: column;
-          margin: 3rem;
+          gap: 3rem;
+          margin: 0 3rem;
+     }
+
+     .skills-subcontainer{
+          margin-bottom: 2rem;
+     }
+
+     .skills-subcontainer:last-child{
+          margin-bottom: 0rem!important;
      }
 
      .skills-subcontainer div h2{
@@ -111,6 +128,30 @@
 
 .bar-mysql{
      width: 55%;
+}
+
+.bar-dynamo{
+     width: 41%;
+}
+
+.bar-ec2{
+     width: 65%;
+}
+
+.bar-s3{
+     width: 73%;
+}
+
+.bar-lambda{
+     width: 47%;
+}
+
+.bar-g8{
+     width: 44%;
+}
+
+.bar-sns{
+     width: 53%;
 }
 
 .skills-icon{

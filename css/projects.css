@@ -65,7 +65,7 @@
      }
 
      .projects-container div:first-child{
-          margin-top: 3rem;
+          margin-top: 3rem!important;
      }
 
      .fixme{
