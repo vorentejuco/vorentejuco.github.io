@@ -155,3 +155,12 @@
 .contact-info-links a{
      text-decoration: none;
 }
+
+.project-btn-container-progress{
+     gap: 3rem;
+}
+
+.no-demo{
+     color: darkgray!important;
+     pointer-events: none;
+}
