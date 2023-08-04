@@ -70,6 +70,7 @@
 @media(max-width:1323px){
      .projects-container2{
           grid-template-columns: 1fr 1fr;
+          max-width: 800px;
      }
 
 /*      .projects-container div:first-child{
