@@ -117,13 +117,18 @@
      border-radius: 12px;
 }
 
+.progress-span{
+     background-color: transparent!important;
+     color: lime!important;
+}
+
 
 .project-btn-container{
      margin-top: 2rem;
      justify-content: center;
      align-items: center;
      display: flex;
-     gap: 6rem;
+     gap: 7.5rem;
      border-top: 1px solid #75757549;
      padding-top: 19px;
 
@@ -136,7 +141,7 @@
      justify-content: center;
      align-items: center;
      display: flex;
-     gap: 6rem;
+     gap: 7.5rem;
      border-top: 1px solid #75757549;
      padding-top: 19px;
 
@@ -172,7 +177,7 @@
 }
 
 .project-btn-container-progress{
-     gap: 3rem;
+     gap: 7.5rem;
 }
 
 .no-demo{
